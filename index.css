@@ -45,21 +45,24 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #333;
+    font-family: 'Abril Fatface', cursive;
     transition: all 0.5s ease;
 }
 nav ul li a:hover{
     color: rgb(92, 58, 131);
 }
 .content h1{
+    font-family: 'Abril Fatface', cursive;
     font-size: 60px;
-    font-weight: 100;
+    font-weight: 500;
    /* margin-top: 24px;*/
     margin-bottom: 15px;
     color: #232d60;
 
 }
 .content p{
-    font-size: 16px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
     color: #6a7199;
     
     
@@ -89,5 +92,18 @@ nav ul li a:hover{
 }
 .content .btn1:hover{
     background: linear-gradient(45deg,  #ff77cd,#87adfe);
-    
+    transform: scale(1.2);
+}
+.social-links{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -80px;
+    bottom: 180px;
+}
+.social-links a{
+    text-decoration: none;
+    color: #6a7199;
+    padding-right: 20px;
+    font-size: 14px;
+
 }
