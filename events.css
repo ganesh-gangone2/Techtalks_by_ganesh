@@ -1,0 +1,57 @@
+.events
+{
+    padding:60px 10%;
+    font-size:22px;
+    background-image:url(images/background.png);
+    background-size: cover;
+}
+.row
+{
+    display: flex;
+    width:100%;
+    align-items: center;
+    flex-wrap:wrap;
+    padding:50px 0;
+}
+.col
+{
+    flex-basis:50%;
+    margin-bottom: 20px;
+}
+.col-img
+{
+    flex-basis:50%;
+    margin-bottom: 20px;
+}
+.col-img img
+{
+    display: block;
+    width:90%;
+    margin:auto;
+}
+.col-img figure img {
+	width: 350px;
+	height: auto;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.col-img figure:hover img {
+	width: 400px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+  }
+
+  .btn button
+  {
+    font-size:30px;
+    background-color:chocolate;
+    border-radius: 50px;
+  }
+.btn button:hover
+  {
+    background-color:beige;
+  }
