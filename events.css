@@ -1,10 +1,14 @@
 /*Nav bar code*/
+*{
+  margin:0;
+  padding: 0;
+}
 .container{
   height: 100vh;
   width: 100vw;
   background-image: url(background.png);
   background-position: center;
-  background-size: cover;
+  background-size:cover;
   padding-left: 5%;
   padding-right: 5%;
   box-sizing: border-box;
@@ -78,12 +82,28 @@ nav ul li a:hover{
 {
     flex-basis:50%;
     margin-bottom: 20px;
+    
+}
+.col h1{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 60px;
+  font-weight: 500;
+ /* margin-top: 24px;*/
+  margin-bottom: 15px;
+  color: #232d60;
+
+}
+.col p{
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+  color: #6a7199;
 }
 .col-img
 {
     flex-basis:50%;
     margin-bottom: 20px;
 }
+
 .col-img img
 {
     display: block;
