@@ -157,6 +157,11 @@ button.ghost{
     background: transparent;
     border-color: #fff;
 }
+button.ghost:hover{
+    background: #fff;
+    border-color: #fff;
+    color:#000;
+}
 .form-container{
     position: absolute;
     top:0;
