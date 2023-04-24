@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.profile {
+    height: 90px;
+    border-radius: 50px;
+    width: 90px;
+
+}
+
+.pic-image {
+    height: 20px;
+    margin-right: 8px;
+}
+
+.inactive {
+    background-color: #030405;
+    border-radius: 33px;
+    color: white;
+    padding: 10px;
+    font-family: "Roboto";
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+}
+
+.active {
+    background-color: #bdf6ff;
+    border-radius: 33px;
+    color: black;
+    padding: 10px;
+    font-family: "Roboto";
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.dash {
+    height: 50px;
+}
+
+.background-image {
+    border-radius: 30px;
+}
+
+.mainheading {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.buttons {
+    border-width: 1px;
+    border-color: green;
+}
+
+.dash1 {
+    height: 35px;
+    padding-left: 5px;
+    margin-right: 10px;
+}
+
+.dash3 {
+    height: 55px;
+}
+
+.my {
+    color: #939995;
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+.switch {
+    color: #117af2;
+    font-size: 18px;
+}
+
+.log {
+    color: #f23e38;
+    font-size: 18px;
+}
+
+.web {
+    color: #636d78;
+}
+
+.ach {
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.buttoncolor {
+    background-color: #f56b3d;
+    border-radius: 24px;
+}
+
+.cont {
+    background-image: url('https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2548.jpg?w=2000');
+    height: 100vh;
+}
