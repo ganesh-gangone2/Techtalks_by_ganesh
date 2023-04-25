@@ -16,8 +16,6 @@
     padding-right: 5%;
     box-sizing: border-box;
     position: relative;
-
-
 }
 .navbar{
     width: 100%;
@@ -25,6 +23,8 @@
     margin: auto;
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
 
 }
 .logo{
@@ -53,6 +53,7 @@ nav ul li a{
     color: #333;
     font-family: 'Abril Fatface', cursive;
     transition: all 0.5s ease;
+    font-size: 16.5px;
 }
 .primary-button{
     background-color:#87adfe;
@@ -104,7 +105,8 @@ a{
     overflow:hidden;
     width: 768px;
     max-width: 100%;
-    min-height: 480px;
+    min-height: 450px;
+    margin-left: 325px;
 }
 .form-container form{
     background: #fff;
