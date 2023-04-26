@@ -1,5 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container11{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
 
+}
+.logo{
+    width: 250px;
+    cursor: pointer;
+    
+
+}
+.profile1{
+    width: 48px;
+    cursor: pointer; 
+      
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:0px 17px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-family: 'Abril Fatface', cursive;
+    transition: all 0.5s ease;
+}
+.primary-button{
+    background-color:#87adfe;
+    border-radius: 85px;
+    font-weight: 400;
+    color: #fff ;
+    padding: 12px 18px;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+    transition: 0.2s ease-out;
+
+
+}
+.primary-button:hover{
+    background-color:whitesmoke;
+
+}
+.secondary-button{
+    border: 0.5px solid #232d60;
+    border-radius: 85px;
+    font-weight: 400;
+    padding: 12px 18px;
+    transition: 0.2s ease-out;
+}
+.secondary-button:hover{
+    border: 0.5px solid #87adfe ;
+    background-color: #87adfe;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(92, 58, 131);
+}
 .profile {
     height: 90px;
     border-radius: 50px;
@@ -10,6 +91,7 @@
 .pic-image {
     height: 20px;
     margin-right: 8px;
+    border-radius: 100%;
 }
 
 .inactive {
@@ -20,8 +102,14 @@
     font-family: "Roboto";
     padding-left: 15px;
     padding-right: 15px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
 
 
+
+}
+.inactive:hover{
+    background: #fff;
 }
 
 .active {
@@ -37,6 +125,7 @@
 
 .dash {
     height: 50px;
+    border-radius: 60%;
 }
 
 .background-image {
@@ -57,10 +146,12 @@
     height: 35px;
     padding-left: 5px;
     margin-right: 10px;
+    border-radius: 60%;
 }
 
 .dash3 {
     height: 55px;
+    border-radius: 60%;
 }
 
 .my {
