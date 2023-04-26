@@ -24,12 +24,13 @@
 .logo{
     width: 250px;
     cursor: pointer;
-    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+    
 
 }
 .profile{
     width: 48px;
-    cursor: pointer;   
+    cursor: pointer; 
+      
 }
 nav{
     flex: 1;
@@ -139,15 +140,15 @@ nav ul li a:hover{
     transform: scale(1.2);
 }
 .social-links{
-    transform: rotate(-90deg);
+    transform: rotate(90deg);
     position: absolute;
-    left: -80px;
+    right: -80px;
     bottom: 180px;
 }
 .social-links a{
     text-decoration: none;
     color: #6a7199;
-    padding-right: 20px;
+    padding-right: 8px;
     font-size: 14px;
 
 }
