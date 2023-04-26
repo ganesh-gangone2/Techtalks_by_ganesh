@@ -127,13 +127,18 @@ nav ul li a:hover{
     height: 50px;
     border-radius: 60%;
 }
+.name1{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+}
 
 .background-image {
     border-radius: 30px;
 }
 
 .mainheading {
-    font-weight: 600;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
     font-size: 22px;
 }
 
