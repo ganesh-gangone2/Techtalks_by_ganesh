@@ -60,9 +60,27 @@ nav ul li a{
     border-radius: 85px;
     font-weight: 400;
     color: #fff ;
-    padding: 12px 24px;
+    padding: 12px 18px;
     box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+    transition: 0.2s ease-out;
 
+
+}
+.primary-button:hover{
+    background-color:whitesmoke;
+
+}
+.secondary-button{
+    border: 0.5px solid #232d60;
+    border-radius: 85px;
+    font-weight: 400;
+    padding: 12px 18px;
+    transition: 0.2s ease-out;
+}
+.secondary-button:hover{
+    border: 0.5px solid #87adfe ;
+    background-color: #87adfe;
+    color: white;
 }
 nav ul li a:hover{
     color: rgb(92, 58, 131);
