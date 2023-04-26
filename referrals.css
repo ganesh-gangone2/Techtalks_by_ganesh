@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    width: 250px;
+    cursor: pointer;
+    
+
+}
+.profile{
+    width: 48px;
+    cursor: pointer; 
+      
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:0px 17px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-family: 'Abril Fatface', cursive;
+    transition: all 0.5s ease;
+}
+.primary-button{
+    background-color:#87adfe;
+    border-radius: 85px;
+    font-weight: 400;
+    color: #fff ;
+    padding: 12px 18px;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+    transition: 0.2s ease-out;
+
+
+}
+.primary-button:hover{
+    background-color:whitesmoke;
+
+}
+.secondary-button{
+    border: 0.5px solid #232d60;
+    border-radius: 85px;
+    font-weight: 400;
+    padding: 12px 18px;
+    transition: 0.2s ease-out;
+}
+.secondary-button:hover{
+    border: 0.5px solid #87adfe ;
+    background-color: #87adfe;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(92, 58, 131);
+}
