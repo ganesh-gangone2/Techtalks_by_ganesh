@@ -24,11 +24,13 @@
 .logo{
     width: 250px;
     cursor: pointer;
+    
 
 }
 .profile{
-    width: 40px;
-    cursor: pointer;   
+    width: 48px;
+    cursor: pointer; 
+      
 }
 nav{
     flex: 1;
@@ -39,7 +41,7 @@ nav{
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin:0px 20px;
+    margin:0px 17px;
 }
 
 nav ul li a{
@@ -53,9 +55,27 @@ nav ul li a{
     border-radius: 85px;
     font-weight: 400;
     color: #fff ;
-    padding: 12px 24px;
+    padding: 12px 18px;
     box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+    transition: 0.2s ease-out;
 
+
+}
+.primary-button:hover{
+    background-color:whitesmoke;
+
+}
+.secondary-button{
+    border: 0.5px solid #232d60;
+    border-radius: 85px;
+    font-weight: 400;
+    padding: 12px 18px;
+    transition: 0.2s ease-out;
+}
+.secondary-button:hover{
+    border: 0.5px solid #87adfe ;
+    background-color: #87adfe;
+    color: white;
 }
 nav ul li a:hover{
     color: rgb(92, 58, 131);
@@ -99,20 +119,36 @@ nav ul li a:hover{
     bottom: 130px;
     right: 0px;
 }
+.chatimage{
+    position: absolute;
+    height: 12%;
+    right: 60px;
+    padding-top: 8px; 
+    bottom: 40px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.chatimage:hover{
+    transform: scale(1.2);
+}
 .content .btn1:hover{
     background: linear-gradient(45deg,  #ff77cd,#87adfe);
     transform: scale(1.2);
 }
 .social-links{
-    transform: rotate(-90deg);
+    transform: rotate(90deg);
     position: absolute;
-    left: -80px;
+    right: -80px;
     bottom: 180px;
 }
 .social-links a{
     text-decoration: none;
     color: #6a7199;
-    padding-right: 20px;
+    padding-right: 8px;
     font-size: 14px;
 
 }

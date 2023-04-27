@@ -60,9 +60,27 @@ nav ul li a{
     border-radius: 85px;
     font-weight: 400;
     color: #fff ;
-    padding: 12px 24px;
+    padding: 12px 18px;
     box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+    transition: 0.2s ease-out;
 
+
+}
+.primary-button:hover{
+    background-color:whitesmoke;
+
+}
+.secondary-button{
+    border: 0.5px solid #232d60;
+    border-radius: 85px;
+    font-weight: 400;
+    padding: 12px 18px;
+    transition: 0.2s ease-out;
+}
+.secondary-button:hover{
+    border: 0.5px solid #87adfe ;
+    background-color: #87adfe;
+    color: white;
 }
 nav ul li a:hover{
     color: rgb(92, 58, 131);
@@ -106,7 +124,7 @@ a{
     width: 768px;
     max-width: 100%;
     min-height: 450px;
-    margin-left: 325px;
+    margin: 0 auto;
 }
 .form-container form{
     background: #fff;
@@ -118,19 +136,23 @@ a{
     align-items: center;
     text-align: center;
 }
-.social-container{
-    margin: 20px 0;
-}
-.social-container{
-    border: 1px solid #ddd;
-    border-radius: 50%;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 5px;
-    height: 40px;
-    width: 40px;
-}
+.circle{
+	border-radius: 50%;
+	margin: 0.15em;
+	font-size: 1.5em;
+	}
+.fa-facebook{
+    color: #000;
+   padding: 0.05em 0.07em;
+ }
+.fa-google-plus{
+    color: #000;
+    padding: 0.1em 0.1em;
+    }
+.fa-linkedin{
+    color: #000;
+    padding: 0.1em 0.1em;
+     }   
 .form-container input{
        background: #eee;
        border: none;
