@@ -6,7 +6,7 @@
   .container{
     height:100%;
     width: 100vw;
-    background-image: url(background.png);
+    background-image: url(background.jpg);
     background-position:left;
     background-size:cover;
     padding-left: 5%;
@@ -20,7 +20,7 @@
     margin: auto;
     display: flex;
     align-items: center;
-  
+    
   }
   .logo{
     width: 250px;
@@ -191,6 +191,7 @@ transform: scale(1.2);
   height: 60px;
   padding: 10px auto;
   margin-top: 10px;
+  color: #fff;
 }
 
 
