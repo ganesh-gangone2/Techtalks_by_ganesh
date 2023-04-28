@@ -1,0 +1,196 @@
+/*Nav bar code*/
+*{
+    margin:0;
+    padding: 0;
+  }
+  .container{
+    height:100%;
+    width: 100vw;
+    background-image: url(background.png);
+    background-position:left;
+    background-size:cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  
+  }
+  .logo{
+    width: 250px;
+    cursor: pointer;
+  
+  }
+  .profile{
+    width: 40px;
+    cursor: pointer;   
+  }
+  nav{
+    flex: 1;
+    padding-left: 60px;
+  
+  }
+  
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:0px 20px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-family: 'Abril Fatface', cursive;
+    transition: all 0.5s ease;
+  }
+  .primary-button{
+    background-color:#87adfe;
+    border-radius: 85px;
+    font-weight: 400;
+    color: #fff ;
+    padding: 12px 18px;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+    transition: 0.2s ease-out;
+  
+  
+  }
+  .primary-button:hover{
+    background-color:whitesmoke;
+  
+  }
+  .secondary-button{
+    border: 0.5px solid #232d60;
+    border-radius: 85px;
+    font-weight: 400;
+    padding: 12px 18px;
+    transition: 0.2s ease-out;
+  }
+  .secondary-button:hover{
+    border: 0.5px solid #87adfe ;
+    background-color: #87adfe;
+    color: white;
+  }
+  nav ul li a:hover{
+    color: rgb(92, 58, 131);
+  }
+
+  body {
+    overflow-x: hidden; /* Hide horizontal scrollbars */
+  }
+
+  /* updates -----*/
+.updates{
+  align-items: center;
+  justify-content: center;
+  width:80%;
+  margin:5px auto;
+}
+.line{
+  width:150px;
+  height:5px;
+  background:#ff77cd;
+  margin:10px auto;
+}
+.heading{
+  text-align:center;
+}
+.heading h2{
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+/*cards---------------*/
+
+.cards{
+  
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap:50px;
+  
+}
+.cards .card{
+  width: 300px;
+  background-color: #fff;
+  position: relative;
+  
+}
+
+
+#zoom:hover {
+  transform: scale(1.05); 
+  transition: transform .3s; 
+  transition-timing-function: ease;
+}
+/*matter---------------------------------*/
+
+.matter h3{
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.matter p{
+  text-align: center;
+  padding-left:15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+}
+.imgs img{
+  width:100%;
+  height:200px;
+  
+}
+
+/*date------------------------------------------*/
+
+.date{
+  position:absolute;
+  background-color:#f9addd;
+  padding: 5px 10px;
+  top:0;
+  left:0;
+  text-transform: capitalize;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+.btn .btn1{
+  display:inline-block;
+  background: linear-gradient(45deg, #87adfe, #ff77cd);
+  border-radius: 6px;
+  padding: 10px 10px ;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+  margin-top: 10px;
+  transition: all 0.5s ease;
+}
+.btn .btn1:hover{
+background: linear-gradient(45deg,  #ff77cd,#87adfe);
+transform: scale(1.2);
+}
+.soon{
+  background: linear-gradient(45deg,  #ff77cd,#87adfe);
+  height: 60px;
+  padding: 10px auto;
+  margin-top: 10px;
+}
+
+
+ 
