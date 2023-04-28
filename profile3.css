@@ -108,6 +108,7 @@ nav ul li a:hover{
 
 
 }
+
 .inactive:hover{
     background: #fff;
 }
@@ -192,4 +193,11 @@ nav ul li a:hover{
 .cont {
     background-image: url('https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2548.jpg?w=2000');
     height: 100vh;
+}
+.hg{
+    background-color: white;
+}
+.hg1{
+    background-color: white;
+    border-radius: 30px;
 }
