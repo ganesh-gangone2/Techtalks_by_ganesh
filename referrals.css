@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;600&display=swap');
 *{
     margin: 0;
@@ -94,13 +95,13 @@ nav ul li a:hover{
 .referal-box h1{
     position: absolute;
     text-shadow: 0px 2px black ;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Castoro Titling', cursive;
     /*font-family: 'Abril Fatface', cursive;*/
     font-size: 45px;
-    top: 190px;
+    top: 210px;
     font-weight: 400;
     color: white;
-    right: 240px;
+    right: 160px;
 }
 .referal-box p{
     font-size: 18px;
@@ -111,6 +112,7 @@ nav ul li a:hover{
     padding-top: 180px;
 }
 .refimg{
+    filter: drop-shadow(8px 8px 10px rgb(31, 29, 29));
     position: absolute;
     bottom: 130px;
     top: 90px;
