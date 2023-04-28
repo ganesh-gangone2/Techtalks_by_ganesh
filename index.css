@@ -114,10 +114,11 @@ nav ul li a:hover{
     transition: all 0.5s ease;
 }
 .sideimage{
+    filter: drop-shadow(8px 8px 10px rgb(31, 29, 29));
     height: 63%;
     position: absolute;
     bottom: 130px;
-    right: 0px;
+    right: -10px;
 }
 .chatimage{
     position: absolute;
@@ -140,9 +141,9 @@ nav ul li a:hover{
     transform: scale(1.2);
 }
 .social-links{
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
     position: absolute;
-    right: -80px;
+    left: -80px;
     bottom: 180px;
 }
 .social-links a{
