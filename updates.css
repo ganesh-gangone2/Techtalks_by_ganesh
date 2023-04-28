@@ -103,6 +103,7 @@
 .heading h2{
   font-size: 40px;
   padding-top: 30px;
+  text-transform:uppercase;
 }
 
 /*cards---------------*/
@@ -113,7 +114,7 @@
   display: flex;
   flex-wrap: wrap;
   grid-gap:50px;
-  
+  justify-content:center;
 }
 .cards .card{
   width: 300px;
